@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ZakruglqneNaChisla
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var one = 112.345;
+            var two = Math.Round(one, 2);
+            var three = Math.Round(one, 1);
+
+            Console.WriteLine(one);
+            Console.WriteLine(two);
+            Console.WriteLine(three);
+
+        }
+    }
+}
